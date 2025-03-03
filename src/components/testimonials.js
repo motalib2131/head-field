@@ -47,6 +47,7 @@ const testimonials = [
 ];
 
 function Testimonial() {
+  
   const sliderRef = useRef(null);
 
   const settings = {
