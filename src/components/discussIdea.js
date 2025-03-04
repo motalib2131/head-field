@@ -16,7 +16,7 @@ const DiscussIdea = () => {
           <input
             type="email"
             placeholder="Your email"
-            className="px-4 py-2 w-64 rounded-full border border-gray-400 focus:outline-none"
+            className="px-4 py-2 sm:w-64 w-44 rounded-full border border-gray-400 focus:outline-none"
           />
           <button className="bg-black text-white font-semibold py-2 px-6 rounded-full">
             SEND

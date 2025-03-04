@@ -45,24 +45,29 @@ export default function Header() {
 
       {isOpen && (
         <div className="md:hidden absolute left-0 top-full w-full bg-white pb-4 z-40">
-          <Link to="" className="block px-6 py-2 text-black hover:bg-gray-800">
+          <Link to="" className="block px-6 py-2 text-black hover:bg-gray-800"
+          onClick={() => setIsOpen(!isOpen)}
+          >
             Company
           </Link>
           <Link
             to="/about"
             className="block px-6 py-2 text-black hover:bg-gray-800"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Services
           </Link>
           <Link
             to="/resource"
             className="block px-6 py-2 text-black hover:bg-gray-800"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Resources
           </Link>
           <Link
             to=""
             className="block px-6 py-2 border-t border-gray-700 text-yellow-500 hover:bg-gray-800"
+            onClick={() => setIsOpen(!isOpen)}
           >
             CONTACT
           </Link>

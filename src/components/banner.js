@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-black relative overflow-hidden px-4">
-      <div className="absolute inset-0 bg-black py-6">
+      <div className="absolute inset-0 bg-black sm:py-6 py-0">
         <div className="absolute bottom-[100px] left-0 w-40 h-40 md:w-52 md:h-52 bg-[#EF9364] blur-[80px] md:blur-[100px] opacity-60"></div>
         <div className="absolute top-0 right-0 w-40 h-40 md:w-52 md:h-52 bg-purple-500 blur-[80px] md:blur-[100px] opacity-40"></div>
       </div>
